@@ -1,8 +1,8 @@
 
-<form action="/login" method="POST" style="margin:20px;">
-    <div class="ex3">
+<form action="/register" method="POST" style="margin:20px;">
+    <div>
         <!-- Content here -->
-        <h1>Ingreso de Usuario</h1>
+        <h1>Registrar Usuario</h1>
         <br>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">
@@ -11,7 +11,7 @@
                   <path d="M4.5 0A2.5 2.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A2.5 2.5 0 0 0 11.5 0h-7zM3 2.5A1.5 1.5 0 0 1 4.5 1h7A1.5 1.5 0 0 1 13 2.5v10.795a4.2 4.2 0 0 0-.776-.492C11.392 12.387 10.063 12 8 12s-3.392.387-4.224.803a4.2 4.2 0 0 0-.776.492V2.5z"/>
                 </svg>
             </span>
-            <input type="text" class="form-control" id="userName" name="userName" aria-describedby="userName" placeholder="Usuario">
+            <input type="text" class="form-control" id="userName" name="username" aria-describedby="userName" placeholder="Usuario">
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1">
@@ -22,11 +22,11 @@
             <input type="password" class="form-control" id="password" name="password" aria-describedby="password" placeholder="Contraseña">
         </div>
 
-        <button type="submit" class="btn btn-success" >Login</button>
+        <button type="submit" class="btn btn-success" >Aceptar</button>
 
         <hr class="solid">
         
-        <a href="register.html">Registrarse</a>
+        <a class="btn btn-primary" href="/login" role="button">Volver</a>
 
     </div>
 </form>

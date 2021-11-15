@@ -25,6 +25,10 @@ div.ex2{
   background-color: #F28773;
 }
 
+a.volver{
+  margin-left: 45%;
+}
+
 form{
   display: flex;
   justify-content:center;
